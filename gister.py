@@ -19,7 +19,7 @@ parser.add_option("-r", "--run", dest="run", action="store", type="string",
                   help="download and run directly (not stored locally)")
 
 parser.add_option("-i", "--install", dest="install", action="store", type="string",
-                  help="install the script locally, and place on PATH")
+                  help="install the script locally( to ~/.gister )")
 (options, args) = parser.parse_args()
 
 def listscripts(scripts):
